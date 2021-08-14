@@ -6,7 +6,7 @@ const Card = () => {
     const [movies, setMovies] = useState([]);
 
     const handleSearch = async () =>{
-        const res =await fetch(`http://www.omdbapi.com/?s=${search}&apikey=7a003102`);
+        const res =await fetch(`https://www.omdbapi.com/?s=${search}&apikey=7a003102`);
         const data = await res.json();
         setMovies(data.Search);         
     }
