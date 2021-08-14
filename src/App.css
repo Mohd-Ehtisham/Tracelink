@@ -1,0 +1,62 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* overflow: hidden; */
+  box-sizing: border-box;
+}
+span{
+  color: #4dbb60;
+  cursor: pointer;
+}
+span:hover{
+  color: red;
+}
+label{
+  font-size: 1.2rem;
+}
+input{
+  border-radius: 25px;
+  padding: 3px;
+  text-align: center;
+}
+.logincon{
+  margin-top: 14rem !important;
+}
+img{
+  height: fit-content !important;
+  background-size: cover;
+  background-clip: padding-box;
+}
+.image{
+  background-image: url("./Components/images/loginimage.svg");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.LoginHead{
+  color: #3f3d56;
+  padding-left: 2rem !important;
+}
+button{
+  background-color: #3f3d56 !important;
+  color: white !important;
+}
+button:hover{
+  background-color: #6c63ff  !important;
+  color: white !important;
+}
+.error{
+  color: red;
+
+}
+.search{
+  border-radius: 25px;
+  margin-left: 3px;
+}
+.maincon{
+  overflow: hidden;
+}
+.header{
+  background-color: #f2f2f2;
+}
+.header h2{
+  color: #3f3d56;
+}
