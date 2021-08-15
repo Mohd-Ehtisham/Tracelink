@@ -3,6 +3,7 @@ import firebase from "firebase"
 var firebaseConfig = {
     apiKey: "AIzaSyCZf7B1YaBMLLznlqj44DEYURLjy-1iGBs",
     authDomain: "tracelink-baa57.firebaseapp.com",
+    databaseURL: "https://tracelink-baa57-default-rtdb.firebaseio.com/",
     projectId: "tracelink-baa57",
     storageBucket: "tracelink-baa57.appspot.com",
     messagingSenderId: "386130358618",
