@@ -75,7 +75,7 @@ const Mainpage = (props) => {
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            <form method="post" >
+                            <form method="post" > 
                                 <label>Name</label>
                                 <input type="text" name="name" value={data.name} onChange={handleChange} placeholder="Enter image name"/> <br />
                                 <label className="mt-3">Image</label>
